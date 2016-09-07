@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FED39E01D64DAAF00E38332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FED39DF1D64DAAF00E38332 /* AppDelegate.swift */; };
+		2FED39E51D64DAAF00E38332 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FED39E31D64DAAF00E38332 /* Main.storyboard */; };
+		2FED39E81D64DAAF00E38332 /* SwiftGrailDiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FED39E61D64DAAF00E38332 /* SwiftGrailDiary.xcdatamodeld */; };
+		2FED39EA1D64DAAF00E38332 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FED39E91D64DAAF00E38332 /* Assets.xcassets */; };
+		2FED39ED1D64DAAF00E38332 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FED39EB1D64DAAF00E38332 /* LaunchScreen.storyboard */; };
+		2FED39F51D64DB0600E38332 /* grailFacts.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FED39F41D64DB0600E38332 /* grailFacts.json */; };
+		2FED39F71D64DBBF00E38332 /* GrailDiaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FED39F61D64DBBF00E38332 /* GrailDiaryTableViewController.swift */; };
+		2FED39F91D64DBF300E38332 /* SiteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FED39F81D64DBF300E38332 /* SiteDetailViewController.swift */; };
+		2FED39FD1D64E7B300E38332 /* Sites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FED39FC1D64E7B300E38332 /* Sites.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FED39DC1D64DAAF00E38332 /* SwiftGrailDiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGrailDiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FED39DF1D64DAAF00E38332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2FED39E41D64DAAF00E38332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FED39E71D64DAAF00E38332 /* SwiftGrailDiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftGrailDiary.xcdatamodel; sourceTree = "<group>"; };
+		2FED39E91D64DAAF00E38332 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FED39EC1D64DAAF00E38332 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FED39EE1D64DAAF00E38332 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FED39F41D64DB0600E38332 /* grailFacts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = grailFacts.json; sourceTree = "<group>"; };
+		2FED39F61D64DBBF00E38332 /* GrailDiaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrailDiaryTableViewController.swift; sourceTree = "<group>"; };
+		2FED39F81D64DBF300E38332 /* SiteDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SiteDetailViewController.swift; sourceTree = "<group>"; };
+		2FED39FC1D64E7B300E38332 /* Sites.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sites.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FED39D91D64DAAF00E38332 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FED39D31D64DAAF00E38332 = {
+			isa = PBXGroup;
+			children = (
+				2FED39DE1D64DAAF00E38332 /* SwiftGrailDiary */,
+				2FED39DD1D64DAAF00E38332 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FED39DD1D64DAAF00E38332 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FED39DC1D64DAAF00E38332 /* SwiftGrailDiary.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FED39DE1D64DAAF00E38332 /* SwiftGrailDiary */ = {
+			isa = PBXGroup;
+			children = (
+				2FED39F41D64DB0600E38332 /* grailFacts.json */,
+				2FED39DF1D64DAAF00E38332 /* AppDelegate.swift */,
+				2FED39FC1D64E7B300E38332 /* Sites.swift */,
+				2FED39F61D64DBBF00E38332 /* GrailDiaryTableViewController.swift */,
+				2FED39F81D64DBF300E38332 /* SiteDetailViewController.swift */,
+				2FED39E31D64DAAF00E38332 /* Main.storyboard */,
+				2FED39E91D64DAAF00E38332 /* Assets.xcassets */,
+				2FED39EB1D64DAAF00E38332 /* LaunchScreen.storyboard */,
+				2FED39EE1D64DAAF00E38332 /* Info.plist */,
+				2FED39E61D64DAAF00E38332 /* SwiftGrailDiary.xcdatamodeld */,
+			);
+			path = SwiftGrailDiary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FED39DB1D64DAAF00E38332 /* SwiftGrailDiary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FED39F11D64DAAF00E38332 /* Build configuration list for PBXNativeTarget "SwiftGrailDiary" */;
+			buildPhases = (
+				2FED39D81D64DAAF00E38332 /* Sources */,
+				2FED39D91D64DAAF00E38332 /* Frameworks */,
+				2FED39DA1D64DAAF00E38332 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftGrailDiary;
+			productName = SwiftGrailDiary;
+			productReference = 2FED39DC1D64DAAF00E38332 /* SwiftGrailDiary.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FED39D41D64DAAF00E38332 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Tyler;
+				TargetAttributes = {
+					2FED39DB1D64DAAF00E38332 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2FED39D71D64DAAF00E38332 /* Build configuration list for PBXProject "SwiftGrailDiary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FED39D31D64DAAF00E38332;
+			productRefGroup = 2FED39DD1D64DAAF00E38332 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FED39DB1D64DAAF00E38332 /* SwiftGrailDiary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FED39DA1D64DAAF00E38332 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FED39ED1D64DAAF00E38332 /* LaunchScreen.storyboard in Resources */,
+				2FED39EA1D64DAAF00E38332 /* Assets.xcassets in Resources */,
+				2FED39E51D64DAAF00E38332 /* Main.storyboard in Resources */,
+				2FED39F51D64DB0600E38332 /* grailFacts.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FED39D81D64DAAF00E38332 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FED39F91D64DBF300E38332 /* SiteDetailViewController.swift in Sources */,
+				2FED39E81D64DAAF00E38332 /* SwiftGrailDiary.xcdatamodeld in Sources */,
+				2FED39FD1D64E7B300E38332 /* Sites.swift in Sources */,
+				2FED39F71D64DBBF00E38332 /* GrailDiaryTableViewController.swift in Sources */,
+				2FED39E01D64DAAF00E38332 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FED39E31D64DAAF00E38332 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FED39E41D64DAAF00E38332 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FED39EB1D64DAAF00E38332 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FED39EC1D64DAAF00E38332 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FED39EF1D64DAAF00E38332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FED39F01D64DAAF00E38332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FED39F21D64DAAF00E38332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftGrailDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.SwiftGrailDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2FED39F31D64DAAF00E38332 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SwiftGrailDiary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiy.SwiftGrailDiary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FED39D71D64DAAF00E38332 /* Build configuration list for PBXProject "SwiftGrailDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FED39EF1D64DAAF00E38332 /* Debug */,
+				2FED39F01D64DAAF00E38332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FED39F11D64DAAF00E38332 /* Build configuration list for PBXNativeTarget "SwiftGrailDiary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FED39F21D64DAAF00E38332 /* Debug */,
+				2FED39F31D64DAAF00E38332 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FED39E61D64DAAF00E38332 /* SwiftGrailDiary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FED39E71D64DAAF00E38332 /* SwiftGrailDiary.xcdatamodel */,
+			);
+			currentVersion = 2FED39E71D64DAAF00E38332 /* SwiftGrailDiary.xcdatamodel */;
+			path = SwiftGrailDiary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FED39D41D64DAAF00E38332 /* Project object */;
+}

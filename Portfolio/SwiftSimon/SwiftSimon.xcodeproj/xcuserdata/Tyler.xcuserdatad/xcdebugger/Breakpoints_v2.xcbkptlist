@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftSimon/SimonViewController.swift"
+            timestampString = "493311400.017249"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "ButtonColor"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.redSquare.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493311400.753047"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.redSquare.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493311400.760036"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SwiftSimon.SimonViewController"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493311400.761535"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;SwiftSimon.SimonViewController&gt;"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493311400.763274"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftSimon/SimonViewController.swift"
+            timestampString = "493311676.546678"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ButtonColor"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.__deallocating_deinit"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493311676.864071"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SwiftSimon.SimonViewController"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493311676.865521"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SwiftSimon.SimonViewController"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493311676.866926"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;SwiftSimon.SimonViewController&gt;"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493311676.868605"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;SwiftSimon.SimonViewController&gt;"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493311676.870121"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftSimon/SimonViewController.swift"
+            timestampString = "493311678.355426"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ButtonColor"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.redSquare.getter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493311678.359337"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.redSquare.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493311678.361867"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SwiftSimon.SimonViewController"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493311678.364815"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;SwiftSimon.SimonViewController&gt;"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493311678.36728"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftSimon/SimonViewController.swift"
+            timestampString = "493528702.807107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftSimon/SimonViewController.swift"
+            timestampString = "493528702.807107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "330"
+            endingLineNumber = "330"
+            landmarkName = "ColoredButton"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftSimon/SimonViewController.swift"
+            timestampString = "493528702.807107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftSimon/SimonViewController.swift"
+            timestampString = "493419970.574765"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "SimonViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.redSquare.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;SwiftSimon.ColoredButton&gt;"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493420637.135368"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.redSquare.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;SwiftSimon.ColoredButton&gt;"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493420637.136905"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; SwiftSimon.SimonViewController"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493420637.138419"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftSimon.SimonViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;SwiftSimon.SimonViewController&gt;"
+                  moduleName = "SwiftSimon"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Tyler/Documents/SwiftSimon/SwiftSimon/SimonViewController.swift"
+                  timestampString = "493420637.139776"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "54">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftSimon/SimonViewController.swift"
+            timestampString = "493528702.807107"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "255"
+            endingLineNumber = "255"
+            landmarkName = "SimonViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F3C1CFB1D57C97A00D5DD24 /* MyMovieListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C1CFA1D57C97A00D5DD24 /* MyMovieListTableViewController.m */; };
+		2F3C1CFE1D57CA0700D5DD24 /* MyMovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F3C1CFD1D57CA0700D5DD24 /* MyMovieTableViewCell.m */; };
+		2F3C1D001D58D39B00D5DD24 /* Planning.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 2F3C1CFF1D58D39B00D5DD24 /* Planning.JPG */; };
+		2FD4C8571D53C24C003603D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4C8561D53C24C003603D7 /* main.m */; };
+		2FD4C85A1D53C24C003603D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4C8591D53C24C003603D7 /* AppDelegate.m */; };
+		2FD4C8631D53C24C003603D7 /* MovieMania.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4C8611D53C24C003603D7 /* MovieMania.xcdatamodeld */; };
+		2FD4C8651D53C24C003603D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8641D53C24C003603D7 /* Assets.xcassets */; };
+		2FD4C8681D53C24C003603D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8661D53C24C003603D7 /* LaunchScreen.storyboard */; };
+		2FD4C8711D53D2A5003603D7 /* MainMovieCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4C8701D53D2A5003603D7 /* MainMovieCollectionViewController.m */; };
+		2FD4C8741D53D2C3003603D7 /* MovieDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4C8731D53D2C3003603D7 /* MovieDetailViewController.m */; };
+		2FD4C8771D53D30A003603D7 /* MainPosterViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4C8761D53D30A003603D7 /* MainPosterViewCell.m */; };
+		2FD4C87A1D53D31C003603D7 /* APIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4C8791D53D31C003603D7 /* APIController.m */; };
+		2FD4C89A1D54DAD7003603D7 /* 10CloverfieldLane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C87B1D54DAD7003603D7 /* 10CloverfieldLane.jpg */; };
+		2FD4C89B1D54DAD7003603D7 /* AHologramForTheKing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C87C1D54DAD7003603D7 /* AHologramForTheKing.jpg */; };
+		2FD4C89C1D54DAD7003603D7 /* BenHur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C87D1D54DAD7003603D7 /* BenHur.jpg */; };
+		2FD4C89D1D54DAD7003603D7 /* BloodFather.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C87E1D54DAD7003603D7 /* BloodFather.jpg */; };
+		2FD4C89E1D54DAD7003603D7 /* CaptainFantastic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C87F1D54DAD7003603D7 /* CaptainFantastic.jpg */; };
+		2FD4C89F1D54DAD7003603D7 /* CivilWar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8801D54DAD7003603D7 /* CivilWar.jpg */; };
+		2FD4C8A01D54DAD7003603D7 /* Deadpool.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8811D54DAD7003603D7 /* Deadpool.jpg */; };
+		2FD4C8A11D54DAD7003603D7 /* DisneyTheJungleBook.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8821D54DAD7003603D7 /* DisneyTheJungleBook.jpg */; };
+		2FD4C8A21D54DAD7003603D7 /* DoctorStrange.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8831D54DAD7003603D7 /* DoctorStrange.jpg */; };
+		2FD4C8A31D54DAD7003603D7 /* EdgeOfWinter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8841D54DAD7003603D7 /* EdgeOfWinter.jpg */; };
+		2FD4C8A41D54DAD7003603D7 /* EverybodyWantsSome.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8851D54DAD7003603D7 /* EverybodyWantsSome.jpg */; };
+		2FD4C8A51D54DAD7003603D7 /* FindingDory.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8861D54DAD7003603D7 /* FindingDory.jpg */; };
+		2FD4C8A61D54DAD7003603D7 /* HailCaesar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8871D54DAD7003603D7 /* HailCaesar.jpg */; };
+		2FD4C8A71D54DAD7003603D7 /* IndependenceDayResurgence.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8881D54DAD7003603D7 /* IndependenceDayResurgence.jpg */; };
+		2FD4C8A81D54DAD7003603D7 /* Keanu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8891D54DAD7003603D7 /* Keanu.jpg */; };
+		2FD4C8A91D54DAD7003603D7 /* MagnificentSeven.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C88A1D54DAD7003603D7 /* MagnificentSeven.jpg */; };
+		2FD4C8AA1D54DAD7003603D7 /* MidnightSpecial.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C88B1D54DAD7003603D7 /* MidnightSpecial.jpg */; };
+		2FD4C8AB1D54DAD7003603D7 /* StarTrekBeyond.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C88C1D54DAD7003603D7 /* StarTrekBeyond.jpg */; };
+		2FD4C8AC1D54DAD7003603D7 /* TheBFG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C88D1D54DAD7003603D7 /* TheBFG.jpg */; };
+		2FD4C8AD1D54DAD7003603D7 /* NeonDemon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C88E1D54DAD7003603D7 /* NeonDemon.jpg */; };
+		2FD4C8AE1D54DAD7003603D7 /* PetesDragon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C88F1D54DAD7003603D7 /* PetesDragon.jpg */; };
+		2FD4C8AF1D54DAD7003603D7 /* Popstar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8901D54DAD7003603D7 /* Popstar.jpg */; };
+		2FD4C8B01D54DAD7003603D7 /* RogueOne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8911D54DAD7003603D7 /* RogueOne.jpg */; };
+		2FD4C8B11D54DAD7003603D7 /* SecretLifeOfPets.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8921D54DAD7003603D7 /* SecretLifeOfPets.jpg */; };
+		2FD4C8B21D54DAD7003603D7 /* Snowden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8931D54DAD7003603D7 /* Snowden.jpg */; };
+		2FD4C8B31D54DAD7003603D7 /* SpecialCorrespondents.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8941D54DAD7003603D7 /* SpecialCorrespondents.jpg */; };
+		2FD4C8B41D54DAD7003603D7 /* Sully.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8951D54DAD7003603D7 /* Sully.jpg */; };
+		2FD4C8B51D54DAD7003603D7 /* TeamFoxcatcher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8961D54DAD7003603D7 /* TeamFoxcatcher.jpg */; };
+		2FD4C8B61D54DAD7003603D7 /* TheBirthOfANation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8971D54DAD7003603D7 /* TheBirthOfANation.jpg */; };
+		2FD4C8B71D54DAD7003603D7 /* Warcraft.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8981D54DAD7003603D7 /* Warcraft.jpg */; };
+		2FD4C8B81D54DAD7003603D7 /* Zootopia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8991D54DAD7003603D7 /* Zootopia.jpg */; };
+		2FD4C8BE1D563D73003603D7 /* Movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8BD1D563D73003603D7 /* Movies.json */; };
+		2FD4C8C01D563FAD003603D7 /* MovieDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4C8BF1D563FAD003603D7 /* MovieDetail.m */; };
+		2FD4C8C41D5641A4003603D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FD4C8C21D5641A4003603D7 /* Main.storyboard */; };
+		2FD4C8CB1D56799D003603D7 /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FD4C8CA1D56799D003603D7 /* Movie.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F3C1CF91D57C97A00D5DD24 /* MyMovieListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMovieListTableViewController.h; sourceTree = "<group>"; };
+		2F3C1CFA1D57C97A00D5DD24 /* MyMovieListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMovieListTableViewController.m; sourceTree = "<group>"; };
+		2F3C1CFC1D57CA0700D5DD24 /* MyMovieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMovieTableViewCell.h; sourceTree = "<group>"; };
+		2F3C1CFD1D57CA0700D5DD24 /* MyMovieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMovieTableViewCell.m; sourceTree = "<group>"; };
+		2F3C1CFF1D58D39B00D5DD24 /* Planning.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Planning.JPG; path = MovieMania/Planning.JPG; sourceTree = "<group>"; };
+		2FD4C8521D53C24C003603D7 /* MovieMania.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieMania.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD4C8561D53C24C003603D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FD4C8581D53C24C003603D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FD4C8591D53C24C003603D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FD4C8621D53C24C003603D7 /* MovieMania.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieMania.xcdatamodel; sourceTree = "<group>"; };
+		2FD4C8641D53C24C003603D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FD4C8671D53C24C003603D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FD4C8691D53C24C003603D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FD4C86F1D53D2A5003603D7 /* MainMovieCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMovieCollectionViewController.h; sourceTree = "<group>"; };
+		2FD4C8701D53D2A5003603D7 /* MainMovieCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMovieCollectionViewController.m; sourceTree = "<group>"; };
+		2FD4C8721D53D2C3003603D7 /* MovieDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieDetailViewController.h; sourceTree = "<group>"; };
+		2FD4C8731D53D2C3003603D7 /* MovieDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetailViewController.m; sourceTree = "<group>"; };
+		2FD4C8751D53D30A003603D7 /* MainPosterViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPosterViewCell.h; sourceTree = "<group>"; };
+		2FD4C8761D53D30A003603D7 /* MainPosterViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPosterViewCell.m; sourceTree = "<group>"; };
+		2FD4C8781D53D31C003603D7 /* APIController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APIController.h; sourceTree = "<group>"; };
+		2FD4C8791D53D31C003603D7 /* APIController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APIController.m; sourceTree = "<group>"; };
+		2FD4C87B1D54DAD7003603D7 /* 10CloverfieldLane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10CloverfieldLane.jpg; sourceTree = "<group>"; };
+		2FD4C87C1D54DAD7003603D7 /* AHologramForTheKing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AHologramForTheKing.jpg; sourceTree = "<group>"; };
+		2FD4C87D1D54DAD7003603D7 /* BenHur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BenHur.jpg; sourceTree = "<group>"; };
+		2FD4C87E1D54DAD7003603D7 /* BloodFather.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BloodFather.jpg; sourceTree = "<group>"; };
+		2FD4C87F1D54DAD7003603D7 /* CaptainFantastic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CaptainFantastic.jpg; sourceTree = "<group>"; };
+		2FD4C8801D54DAD7003603D7 /* CivilWar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = CivilWar.jpg; sourceTree = "<group>"; };
+		2FD4C8811D54DAD7003603D7 /* Deadpool.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Deadpool.jpg; sourceTree = "<group>"; };
+		2FD4C8821D54DAD7003603D7 /* DisneyTheJungleBook.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DisneyTheJungleBook.jpg; sourceTree = "<group>"; };
+		2FD4C8831D54DAD7003603D7 /* DoctorStrange.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DoctorStrange.jpg; sourceTree = "<group>"; };
+		2FD4C8841D54DAD7003603D7 /* EdgeOfWinter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EdgeOfWinter.jpg; sourceTree = "<group>"; };
+		2FD4C8851D54DAD7003603D7 /* EverybodyWantsSome.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EverybodyWantsSome.jpg; sourceTree = "<group>"; };
+		2FD4C8861D54DAD7003603D7 /* FindingDory.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FindingDory.jpg; sourceTree = "<group>"; };
+		2FD4C8871D54DAD7003603D7 /* HailCaesar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = HailCaesar.jpg; sourceTree = "<group>"; };
+		2FD4C8881D54DAD7003603D7 /* IndependenceDayResurgence.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IndependenceDayResurgence.jpg; sourceTree = "<group>"; };
+		2FD4C8891D54DAD7003603D7 /* Keanu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Keanu.jpg; sourceTree = "<group>"; };
+		2FD4C88A1D54DAD7003603D7 /* MagnificentSeven.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MagnificentSeven.jpg; sourceTree = "<group>"; };
+		2FD4C88B1D54DAD7003603D7 /* MidnightSpecial.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MidnightSpecial.jpg; sourceTree = "<group>"; };
+		2FD4C88C1D54DAD7003603D7 /* StarTrekBeyond.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StarTrekBeyond.jpg; sourceTree = "<group>"; };
+		2FD4C88D1D54DAD7003603D7 /* TheBFG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheBFG.jpg; sourceTree = "<group>"; };
+		2FD4C88E1D54DAD7003603D7 /* NeonDemon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NeonDemon.jpg; sourceTree = "<group>"; };
+		2FD4C88F1D54DAD7003603D7 /* PetesDragon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PetesDragon.jpg; sourceTree = "<group>"; };
+		2FD4C8901D54DAD7003603D7 /* Popstar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Popstar.jpg; sourceTree = "<group>"; };
+		2FD4C8911D54DAD7003603D7 /* RogueOne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RogueOne.jpg; sourceTree = "<group>"; };
+		2FD4C8921D54DAD7003603D7 /* SecretLifeOfPets.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SecretLifeOfPets.jpg; sourceTree = "<group>"; };
+		2FD4C8931D54DAD7003603D7 /* Snowden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Snowden.jpg; sourceTree = "<group>"; };
+		2FD4C8941D54DAD7003603D7 /* SpecialCorrespondents.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SpecialCorrespondents.jpg; sourceTree = "<group>"; };
+		2FD4C8951D54DAD7003603D7 /* Sully.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sully.jpg; sourceTree = "<group>"; };
+		2FD4C8961D54DAD7003603D7 /* TeamFoxcatcher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TeamFoxcatcher.jpg; sourceTree = "<group>"; };
+		2FD4C8971D54DAD7003603D7 /* TheBirthOfANation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TheBirthOfANation.jpg; sourceTree = "<group>"; };
+		2FD4C8981D54DAD7003603D7 /* Warcraft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Warcraft.jpg; sourceTree = "<group>"; };
+		2FD4C8991D54DAD7003603D7 /* Zootopia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zootopia.jpg; sourceTree = "<group>"; };
+		2FD4C8BD1D563D73003603D7 /* Movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Movies.json; sourceTree = "<group>"; };
+		2FD4C8BF1D563FAD003603D7 /* MovieDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieDetail.m; sourceTree = "<group>"; };
+		2FD4C8C11D563FBD003603D7 /* MovieDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovieDetail.h; sourceTree = "<group>"; };
+		2FD4C8C31D5641A4003603D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FD4C8C91D56799D003603D7 /* Movie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Movie.h; sourceTree = "<group>"; };
+		2FD4C8CA1D56799D003603D7 /* Movie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Movie.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FD4C84F1D53C24C003603D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FD4C8491D53C24C003603D7 = {
+			isa = PBXGroup;
+			children = (
+				2F3C1CFF1D58D39B00D5DD24 /* Planning.JPG */,
+				2FD4C8541D53C24C003603D7 /* MovieMania */,
+				2FD4C8531D53C24C003603D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FD4C8531D53C24C003603D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FD4C8521D53C24C003603D7 /* MovieMania.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FD4C8541D53C24C003603D7 /* MovieMania */ = {
+			isa = PBXGroup;
+			children = (
+				2FD4C8BD1D563D73003603D7 /* Movies.json */,
+				2FD4C8581D53C24C003603D7 /* AppDelegate.h */,
+				2FD4C8591D53C24C003603D7 /* AppDelegate.m */,
+				2FD4C86F1D53D2A5003603D7 /* MainMovieCollectionViewController.h */,
+				2FD4C8701D53D2A5003603D7 /* MainMovieCollectionViewController.m */,
+				2FD4C8751D53D30A003603D7 /* MainPosterViewCell.h */,
+				2FD4C8761D53D30A003603D7 /* MainPosterViewCell.m */,
+				2FD4C8721D53D2C3003603D7 /* MovieDetailViewController.h */,
+				2FD4C8731D53D2C3003603D7 /* MovieDetailViewController.m */,
+				2F3C1CF91D57C97A00D5DD24 /* MyMovieListTableViewController.h */,
+				2F3C1CFA1D57C97A00D5DD24 /* MyMovieListTableViewController.m */,
+				2F3C1CFC1D57CA0700D5DD24 /* MyMovieTableViewCell.h */,
+				2F3C1CFD1D57CA0700D5DD24 /* MyMovieTableViewCell.m */,
+				2FD4C8781D53D31C003603D7 /* APIController.h */,
+				2FD4C8791D53D31C003603D7 /* APIController.m */,
+				2FD4C8C21D5641A4003603D7 /* Main.storyboard */,
+				2FD4C8641D53C24C003603D7 /* Assets.xcassets */,
+				2FD4C8661D53C24C003603D7 /* LaunchScreen.storyboard */,
+				2FD4C8691D53C24C003603D7 /* Info.plist */,
+				2FD4C8611D53C24C003603D7 /* MovieMania.xcdatamodeld */,
+				2FD4C8C81D566333003603D7 /* Custom Classes */,
+				2FD4C8B91D54DADF003603D7 /* PosterImg */,
+				2FD4C8551D53C24C003603D7 /* Supporting Files */,
+			);
+			path = MovieMania;
+			sourceTree = "<group>";
+		};
+		2FD4C8551D53C24C003603D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FD4C8561D53C24C003603D7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FD4C8B91D54DADF003603D7 /* PosterImg */ = {
+			isa = PBXGroup;
+			children = (
+				2FD4C87B1D54DAD7003603D7 /* 10CloverfieldLane.jpg */,
+				2FD4C87C1D54DAD7003603D7 /* AHologramForTheKing.jpg */,
+				2FD4C87D1D54DAD7003603D7 /* BenHur.jpg */,
+				2FD4C87E1D54DAD7003603D7 /* BloodFather.jpg */,
+				2FD4C87F1D54DAD7003603D7 /* CaptainFantastic.jpg */,
+				2FD4C8801D54DAD7003603D7 /* CivilWar.jpg */,
+				2FD4C8811D54DAD7003603D7 /* Deadpool.jpg */,
+				2FD4C8821D54DAD7003603D7 /* DisneyTheJungleBook.jpg */,
+				2FD4C8831D54DAD7003603D7 /* DoctorStrange.jpg */,
+				2FD4C8841D54DAD7003603D7 /* EdgeOfWinter.jpg */,
+				2FD4C8851D54DAD7003603D7 /* EverybodyWantsSome.jpg */,
+				2FD4C8861D54DAD7003603D7 /* FindingDory.jpg */,
+				2FD4C8871D54DAD7003603D7 /* HailCaesar.jpg */,
+				2FD4C8881D54DAD7003603D7 /* IndependenceDayResurgence.jpg */,
+				2FD4C8891D54DAD7003603D7 /* Keanu.jpg */,
+				2FD4C88A1D54DAD7003603D7 /* MagnificentSeven.jpg */,
+				2FD4C88B1D54DAD7003603D7 /* MidnightSpecial.jpg */,
+				2FD4C88C1D54DAD7003603D7 /* StarTrekBeyond.jpg */,
+				2FD4C88D1D54DAD7003603D7 /* TheBFG.jpg */,
+				2FD4C88E1D54DAD7003603D7 /* NeonDemon.jpg */,
+				2FD4C88F1D54DAD7003603D7 /* PetesDragon.jpg */,
+				2FD4C8901D54DAD7003603D7 /* Popstar.jpg */,
+				2FD4C8911D54DAD7003603D7 /* RogueOne.jpg */,
+				2FD4C8921D54DAD7003603D7 /* SecretLifeOfPets.jpg */,
+				2FD4C8931D54DAD7003603D7 /* Snowden.jpg */,
+				2FD4C8941D54DAD7003603D7 /* SpecialCorrespondents.jpg */,
+				2FD4C8951D54DAD7003603D7 /* Sully.jpg */,
+				2FD4C8961D54DAD7003603D7 /* TeamFoxcatcher.jpg */,
+				2FD4C8971D54DAD7003603D7 /* TheBirthOfANation.jpg */,
+				2FD4C8981D54DAD7003603D7 /* Warcraft.jpg */,
+				2FD4C8991D54DAD7003603D7 /* Zootopia.jpg */,
+			);
+			name = PosterImg;
+			sourceTree = "<group>";
+		};
+		2FD4C8C81D566333003603D7 /* Custom Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2FD4C8C11D563FBD003603D7 /* MovieDetail.h */,
+				2FD4C8BF1D563FAD003603D7 /* MovieDetail.m */,
+				2FD4C8C91D56799D003603D7 /* Movie.h */,
+				2FD4C8CA1D56799D003603D7 /* Movie.m */,
+			);
+			name = "Custom Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FD4C8511D53C24C003603D7 /* MovieMania */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FD4C86C1D53C24C003603D7 /* Build configuration list for PBXNativeTarget "MovieMania" */;
+			buildPhases = (
+				2FD4C84E1D53C24C003603D7 /* Sources */,
+				2FD4C84F1D53C24C003603D7 /* Frameworks */,
+				2FD4C8501D53C24C003603D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MovieMania;
+			productName = MovieMania;
+			productReference = 2FD4C8521D53C24C003603D7 /* MovieMania.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FD4C84A1D53C24C003603D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tyler;
+				TargetAttributes = {
+					2FD4C8511D53C24C003603D7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 6DMEA6Z5ZU;
+					};
+				};
+			};
+			buildConfigurationList = 2FD4C84D1D53C24C003603D7 /* Build configuration list for PBXProject "MovieMania" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FD4C8491D53C24C003603D7;
+			productRefGroup = 2FD4C8531D53C24C003603D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FD4C8511D53C24C003603D7 /* MovieMania */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FD4C8501D53C24C003603D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD4C89E1D54DAD7003603D7 /* CaptainFantastic.jpg in Resources */,
+				2FD4C8B51D54DAD7003603D7 /* TeamFoxcatcher.jpg in Resources */,
+				2FD4C89A1D54DAD7003603D7 /* 10CloverfieldLane.jpg in Resources */,
+				2FD4C8B31D54DAD7003603D7 /* SpecialCorrespondents.jpg in Resources */,
+				2FD4C8A81D54DAD7003603D7 /* Keanu.jpg in Resources */,
+				2FD4C8B01D54DAD7003603D7 /* RogueOne.jpg in Resources */,
+				2FD4C89D1D54DAD7003603D7 /* BloodFather.jpg in Resources */,
+				2FD4C8BE1D563D73003603D7 /* Movies.json in Resources */,
+				2FD4C8A21D54DAD7003603D7 /* DoctorStrange.jpg in Resources */,
+				2FD4C89C1D54DAD7003603D7 /* BenHur.jpg in Resources */,
+				2FD4C8AD1D54DAD7003603D7 /* NeonDemon.jpg in Resources */,
+				2F3C1D001D58D39B00D5DD24 /* Planning.JPG in Resources */,
+				2FD4C8B21D54DAD7003603D7 /* Snowden.jpg in Resources */,
+				2FD4C8A41D54DAD7003603D7 /* EverybodyWantsSome.jpg in Resources */,
+				2FD4C8B81D54DAD7003603D7 /* Zootopia.jpg in Resources */,
+				2FD4C8AF1D54DAD7003603D7 /* Popstar.jpg in Resources */,
+				2FD4C8AA1D54DAD7003603D7 /* MidnightSpecial.jpg in Resources */,
+				2FD4C8A11D54DAD7003603D7 /* DisneyTheJungleBook.jpg in Resources */,
+				2FD4C8AE1D54DAD7003603D7 /* PetesDragon.jpg in Resources */,
+				2FD4C8AB1D54DAD7003603D7 /* StarTrekBeyond.jpg in Resources */,
+				2FD4C8681D53C24C003603D7 /* LaunchScreen.storyboard in Resources */,
+				2FD4C8651D53C24C003603D7 /* Assets.xcassets in Resources */,
+				2FD4C8C41D5641A4003603D7 /* Main.storyboard in Resources */,
+				2FD4C8A31D54DAD7003603D7 /* EdgeOfWinter.jpg in Resources */,
+				2FD4C8A61D54DAD7003603D7 /* HailCaesar.jpg in Resources */,
+				2FD4C8AC1D54DAD7003603D7 /* TheBFG.jpg in Resources */,
+				2FD4C89F1D54DAD7003603D7 /* CivilWar.jpg in Resources */,
+				2FD4C8A01D54DAD7003603D7 /* Deadpool.jpg in Resources */,
+				2FD4C8A51D54DAD7003603D7 /* FindingDory.jpg in Resources */,
+				2FD4C8B11D54DAD7003603D7 /* SecretLifeOfPets.jpg in Resources */,
+				2FD4C89B1D54DAD7003603D7 /* AHologramForTheKing.jpg in Resources */,
+				2FD4C8A71D54DAD7003603D7 /* IndependenceDayResurgence.jpg in Resources */,
+				2FD4C8B61D54DAD7003603D7 /* TheBirthOfANation.jpg in Resources */,
+				2FD4C8A91D54DAD7003603D7 /* MagnificentSeven.jpg in Resources */,
+				2FD4C8B41D54DAD7003603D7 /* Sully.jpg in Resources */,
+				2FD4C8B71D54DAD7003603D7 /* Warcraft.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FD4C84E1D53C24C003603D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3C1CFE1D57CA0700D5DD24 /* MyMovieTableViewCell.m in Sources */,
+				2F3C1CFB1D57C97A00D5DD24 /* MyMovieListTableViewController.m in Sources */,
+				2FD4C87A1D53D31C003603D7 /* APIController.m in Sources */,
+				2FD4C8631D53C24C003603D7 /* MovieMania.xcdatamodeld in Sources */,
+				2FD4C85A1D53C24C003603D7 /* AppDelegate.m in Sources */,
+				2FD4C8C01D563FAD003603D7 /* MovieDetail.m in Sources */,
+				2FD4C8741D53D2C3003603D7 /* MovieDetailViewController.m in Sources */,
+				2FD4C8711D53D2A5003603D7 /* MainMovieCollectionViewController.m in Sources */,
+				2FD4C8CB1D56799D003603D7 /* Movie.m in Sources */,
+				2FD4C8771D53D30A003603D7 /* MainPosterViewCell.m in Sources */,
+				2FD4C8571D53C24C003603D7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2FD4C8661D53C24C003603D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD4C8671D53C24C003603D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2FD4C8C21D5641A4003603D7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FD4C8C31D5641A4003603D7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FD4C86A1D53C24C003603D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FD4C86B1D53C24C003603D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FD4C86D1D53C24C003603D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MovieMania/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tiy.MovieMania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		2FD4C86E1D53C24C003603D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MovieMania/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tiy.MovieMania;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FD4C84D1D53C24C003603D7 /* Build configuration list for PBXProject "MovieMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD4C86A1D53C24C003603D7 /* Debug */,
+				2FD4C86B1D53C24C003603D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FD4C86C1D53C24C003603D7 /* Build configuration list for PBXNativeTarget "MovieMania" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FD4C86D1D53C24C003603D7 /* Debug */,
+				2FD4C86E1D53C24C003603D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FD4C8611D53C24C003603D7 /* MovieMania.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FD4C8621D53C24C003603D7 /* MovieMania.xcdatamodel */,
+			);
+			currentVersion = 2FD4C8621D53C24C003603D7 /* MovieMania.xcdatamodel */;
+			path = MovieMania.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FD4C84A1D53C24C003603D7 /* Project object */;
+}

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11191" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11156"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Simon View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SimonViewController" customModule="SwiftSimon" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n08-Go-8Ls" customClass="ColoredButton" customModule="SwiftSimon" customModuleProvider="target">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="QjW-3M-tAL"/>
+                                    <constraint firstAttribute="height" constant="60" id="s4r-dD-9aH"/>
+                                </constraints>
+                                <state key="normal" title="red">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="redButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5Aq-le-0cl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qrk-tq-9rF" customClass="ColoredButton" customModule="SwiftSimon" customModuleProvider="target">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="vcL-AE-11S"/>
+                                    <constraint firstAttribute="height" constant="60" id="wNn-0M-yER"/>
+                                </constraints>
+                                <state key="normal" title="green">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="greenButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NLB-CL-G7n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vr-v8-g2W" customClass="ColoredButton" customModule="SwiftSimon" customModuleProvider="target">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="Bsv-CS-c1Y"/>
+                                    <constraint firstAttribute="height" constant="60" id="wAF-mp-Ejy"/>
+                                </constraints>
+                                <state key="normal" title="blue">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="blueButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="O1M-wo-Ssg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dw1-Jm-mzG" customClass="ColoredButton" customModule="SwiftSimon" customModuleProvider="target">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="RhQ-eL-IMf"/>
+                                    <constraint firstAttribute="height" constant="60" id="tmM-zg-1ql"/>
+                                </constraints>
+                                <state key="normal" title="yellow">
+                                    <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="yellowButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rk3-Zl-zkn"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="qrk-tq-9rF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.25" id="6Ro-BA-ifa"/>
+                            <constraint firstItem="Dw1-Jm-mzG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.75" id="7cO-kQ-F6l"/>
+                            <constraint firstItem="Dw1-Jm-mzG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.25" id="EYh-oa-gUE"/>
+                            <constraint firstItem="1Vr-v8-g2W" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.8" id="HOs-f6-GQO"/>
+                            <constraint firstItem="n08-Go-8Ls" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.8" id="QkB-y7-Fwn"/>
+                            <constraint firstItem="1Vr-v8-g2W" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.75" id="xDU-Ev-pDj"/>
+                            <constraint firstItem="n08-Go-8Ls" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="xXp-1i-bst"/>
+                            <constraint firstItem="qrk-tq-9rF" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.5" id="zQY-ma-VSu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="blueSquare" destination="1Vr-v8-g2W" id="kLW-Ij-xHE"/>
+                        <outlet property="greenSquare" destination="qrk-tq-9rF" id="kUn-tC-ftE"/>
+                        <outlet property="redSquare" destination="n08-Go-8Ls" id="RYn-XJ-fX2"/>
+                        <outlet property="yellowSquare" destination="Dw1-Jm-mzG" id="9X6-jb-wFm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
