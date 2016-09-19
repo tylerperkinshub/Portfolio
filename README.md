@@ -1,14 +1,15 @@
 # Portfolio
 
-Hi my name is Tyler Perkins. I am a Junior iOS Developer. I have been taking classes with the Iron Yard since July 2016. In this time I have been exposed to major concepts in Objective-C like modeling, basic networking, core data, location services, mapping. In Swift I have covered the Objective-C conepts listed previous plus animations, spritekit, custom drawing, and cloud services. 
+I am a Junior iOS Developer. I have been taking classes with the Iron Yard since July 2016. In this time I have been exposed to major concepts in Objective-C like modeling, basic networking, core data, location services, mapping. In Swift I have covered the Objective-C conepts listed previous plus animations, spritekit, custom drawing, and cloud services. 
 
 ### Movie Mania 
 
 This app was mode to keep track of movies you might have seen in 2016. It features a collection of sorted movies that you are able to read further information pulled from the Open Movie Database and then add any movies you might want to see to a list.
 
-### SwiftGrailDiary 
+### SwiftMomentOfClarity
 
-This app features a top 10 list of Presidential Libraries to visit. You will learn a location, year built and little facts about what makes them uinique. 
+This is an app to keep your mental acumen up to par with what work you are doing. I found myself getting overly stressed by code and found if I ttok sometime to unwind my brain it would help with the task at hand. 
+
 
 ### SwiftSimon
 
